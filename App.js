@@ -1,18 +1,24 @@
-
 import {View} from 'react-native';
-
-import Header from "./src/components/Header";
-import Stories from "./src/components/Stories";
+import Infoprofile from './src/components/Infoprofile';
+import img2 from "./src/assets/img.jpg";
 
 export default function App() {
   return (
     <View style={{ marginVertical: 32, marginHorizontal: 16, alignItems: "center", flex: 1 }}>
-      <Header />
-      <Stories />
+      <Infoprofile 
+      image={img2}
+      publi={2}
+      followers={3}
+      following={2}
+      />
     </View>
 
-  );
+  )
 }
+
+
+
+
 
 
 
