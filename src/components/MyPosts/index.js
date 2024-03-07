@@ -3,7 +3,7 @@ import { View, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
 
 
-export default function MyPosts(postimage) {
+export default function MyPosts(posti) {
     return (
         <View style={styles.container}>
             <View style={styles.tabs}>
@@ -18,15 +18,15 @@ export default function MyPosts(postimage) {
                 </TouchableOpacity>
             </View>
             <View style={styles.postlist}>
-                <Image source={postimage} style={styles.posts} />
-                <Image source={postimage} style={styles.posts} />
-                <Image source={postimage} style={styles.posts} />
-                <Image source={postimage} style={styles.posts} />
-                <Image source={postimage} style={styles.posts} />
-                <Image source={postimage} style={styles.posts} />
-                <Image source={postimage} style={styles.posts} />
-                <Image source={postimage} style={styles.posts} />
-                <Image source={postimage} style={styles.posts} />
+                <Image source={posti} style={styles.posts} />
+                <Image source={posti} style={styles.posts} />
+                <Image source={posti} style={styles.posts} />
+                <Image source={posti} style={styles.posts} />
+                <Image source={posti} style={styles.posts} />
+                <Image source={posti} style={styles.posts} />
+                <Image source={posti} style={styles.posts} />
+                <Image source={posti} style={styles.posts} />
+                <Image source={posti} style={styles.posts} />
             </View>
         </View>
     )

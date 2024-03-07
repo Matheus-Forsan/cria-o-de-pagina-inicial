@@ -8,6 +8,6 @@ export default function Story({ image }) {
     )
 }
 const styles = StyleSheet.create({
-        story: { width: 100, height: 100, borderRadius: 50 }
+        story: { width: 100, height: 100, borderRadius: 50, backgroundColor: 'black' }
     }
 );

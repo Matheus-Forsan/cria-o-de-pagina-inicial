@@ -1,4 +1,4 @@
-import { Text, View, Image, TouchableOpacity, StyleSheet } from 'react-native'
+import {  View, Image, TouchableOpacity, StyleSheet } from 'react-native'
 import Logo from "../..//assets/instagram.png";
 import { AntDesign } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';

@@ -1,5 +1,6 @@
 import { View,Image,Text, StyleSheet } from "react-native";
 
+
 export default function Infoprofile({image , publi, followers, following }) {
     return(
         <View style={styles.container}>
