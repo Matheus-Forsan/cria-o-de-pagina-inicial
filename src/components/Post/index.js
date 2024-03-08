@@ -13,8 +13,8 @@ export default function Post({postImage, profileImage, profileName, description}
                 <Feather name="more-vertical" size={24} color="black" />
             </View>
             <Image source={postImage} style={{ width: "100%", height: 300 }} />
-            <View styles={{ flexDirection:"row", Gap: 16 }}>
-                <View styles={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 8 }}>
+            <View style={{ flexDirection:"row", Gap: 16, justifyContent:'space-between' }}>
+                <View style={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 8 }}>
                     <MaterialCommunityIcons name="cards-heart-outline" size={24} color="black" />
                     <Feather name="message-circle" size={24} color="black" />
                     <Feather name="send" size={24} color="black" />
