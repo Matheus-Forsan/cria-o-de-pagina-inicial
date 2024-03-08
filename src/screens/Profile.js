@@ -15,7 +15,7 @@ export default function Profile() {
       following={2}
       />
 
-      <MyPosts posti={img1} />
+      <MyPosts posti={img2} />
     </View>
 
   )
